@@ -11,7 +11,7 @@ public class Demo {
 		//shape sh=new shape
 		//create a object through implementable class methods
 		Shape sh;
-		sh=new Square(4.0f);
+		sh=new Square();
 		sh.calArea();
 		sh.show();
 		sh=new Rectangle(4.0f,5.0f);

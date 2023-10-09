@@ -6,6 +6,7 @@ public abstract class Shape {
 	//Abstract method
 	abstract void calArea();
 	void show() {// concrete method
-		System.out.println("area of shape is"+area);	}
+		System.out.println("area of shape is"+area);
+	}
 
 }
