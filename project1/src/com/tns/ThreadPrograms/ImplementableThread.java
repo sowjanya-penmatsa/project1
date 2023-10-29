@@ -12,7 +12,7 @@ public abstract class ImplementableThread implements Runnable {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		ImplementableThread ob=new ImplementableThread();
+		ImplementableThread ob=new ImplementableThread(); 
 		Thread t=new Thread(ob);
 		t.start();
 
